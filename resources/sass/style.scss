@@ -1,3 +1,98 @@
 body {
     background-color: #e4e4e4;
 }
+
+
+.btn-primary {
+    color: white;
+    background-color: var(--color-1);
+    border-color: var(--color-1);
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: var(--color-2);
+    border-color: var(--color-2);
+}
+
+.btn-secondary {
+    color: var(--color-1);
+    background-color: white;
+    border-color: var(--color-1);
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: var(--color-2);
+    border-color: var(--color-2);
+}
+
+.navbar-top {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer {
+    background-color: var(--color-1) !important;
+}
+
+.card-top {
+    border-radius: 15px;
+    border-style: none;
+    background: url("../../public/img/parked-cars.jpeg");
+    background-size: cover;
+    color: white;
+    height: 400px;
+}
+
+.card-top-body {
+    margin-left: 80px;
+}
+
+.card-top-title {
+    width: 300px;
+    margin-top: 70px;
+    font-size: 48px;
+}
+
+.card-top-text {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+// Statistics
+
+.card-statistic-1,
+.card-statistic-2,
+.card-statistic-3 {
+    border-radius: 15px;
+    border-style: none;
+    background: var(--color-1);
+    color: white;
+}
+
+.card-statistic-1:hover,
+.card-statistic-2:hover,
+.card-statistic-3:hover {
+    background: var(--color-2);
+}
+
+.card-icon {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.card-text-header {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.card-text-text {
+    font-size: 14px;
+}
+
+// Statistics

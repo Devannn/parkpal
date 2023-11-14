@@ -5,3 +5,38 @@ $body-bg: #f8fafc;
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+$bg-primary: #eee;
+
+:root {
+    /* ===== Colors ===== */
+    --color-1: #3838A6 !important;
+    --color-2: #232366 !important;
+    --color-3: #4E4EE6 !important;
+    --color-4: #5252F2 !important;
+    --color-5: #4545CC !important;
+
+    --body-color: #E4E9F7 !important;
+    --sidebar-color: #FFF !important;
+    --primary-color: #4E4EE6 !important;
+    --primary-color-light: #F6F5FF !important;
+    --background-color: #232366 !important;
+    --toggle-color: #DDD !important;
+    --text-color: black !important;
+    /* --text-color: #707070 !important; */
+
+    --bs-primary: black !important;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}

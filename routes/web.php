@@ -14,10 +14,6 @@ use App\Http\Controllers\HomepageController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/homepage', [HomepageController::class, 'index']);
+Route::get('/', [HomepageController::class, 'index']);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
