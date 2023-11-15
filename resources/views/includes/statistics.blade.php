@@ -1,6 +1,6 @@
 <div class="row py-5">
     <div class="col-sm">
-        <div class="card">
+        <div class="card card-stats">
             <div class="card-body">
                 <div class="card-stats-icon">
                     <x-fas-car />
@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="col-sm">
-        <div class="card">
+        <div class="card card-stats">
             <div class="card-body">
                 <div class="card-stats-icon">
                     <x-fas-car />
@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="col-sm">
-        <div class="card">
+        <div class="card card-stats">
             <div class="card-body">
                 <div class="card-stats-icon">
                     <x-fas-car />

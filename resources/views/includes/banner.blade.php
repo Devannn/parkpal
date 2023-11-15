@@ -1,4 +1,4 @@
-<div class="row justify-content-center">
+<div class="row py-5 justify-content-center">
     <div class="col">
         <div class="card card-banner">
             <div class="card-banner-body">

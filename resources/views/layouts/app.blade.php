@@ -25,7 +25,7 @@
 <body>
     <div id="app">
         @include('includes.header')
-        <main class="py-5">
+        <main class="">
             @yield('content')
         </main>
         @include('includes.footer')

@@ -13,14 +13,14 @@
         @include('includes.steps')
     </div>
 
+    {{-- Checks --}}
+    <div class="container-fluid" style="padding:0px;">
+        @include('includes.checks')
+    </div>
+
     {{-- Statistics --}}
     <div class="container">
         @include('includes.statistics')
-    </div>
-
-    {{-- Checks --}}
-    <div class="container">
-        @include('includes.checks')
     </div>
 </div>
 <script>

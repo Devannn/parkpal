@@ -38,6 +38,14 @@ h1 {
     border-color: var(--color-2);
 }
 
+
+.card {
+    border-radius: 15px;
+    border-style: none;
+    background: var(--color-1);
+    color: white;
+}
+
 .navbar-top {
     padding-left: 5%;
     padding-right: 5%;
@@ -73,14 +81,7 @@ h1 {
 
 // Statistics
 
-.card {
-    border-radius: 15px;
-    border-style: none;
-    background: var(--color-1);
-    color: white;
-}
-
-.card:hover {
+.card-stats:hover {
     background: var(--color-2);
 }
 
@@ -123,10 +124,18 @@ h1 {
 
 // Steps
 
-// Checkboxes
+// Checks
 
+.container-checks {
+    background: url("../../public/img/car-background.jpeg");
+    background-size: cover;
+}
 
-.checkboxes-text {
+.card-header-more-text {
+    width: 310px;
+}
+
+.checks-text {
     width: 500px;
 }
 
@@ -142,8 +151,16 @@ h1 {
     margin-bottom: 28px;
 }
 
-// Checkboxes
-
-.container-checkboxes {
-    background: url("../../public/img/parked-cars.jpeg");
+.card-body-icon {
+    width: 55px;
+    height: 55px;
+    float: left;
+    padding-right: 20px;
 }
+
+.card-body-text {
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+
+// Checks
