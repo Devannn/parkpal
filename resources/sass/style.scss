@@ -1,5 +1,16 @@
 body {
     background-color: #e4e4e4;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+// Hiddes scrollbar
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    font-size: 58px;
 }
 
 
@@ -33,29 +44,28 @@ body {
 }
 
 .footer {
-    background-color: var(--color-1) !important;
+    background-color: var(--color-1);
 }
 
-.card-top {
+.card-banner {
     border-radius: 15px;
     border-style: none;
-    background: url("../../public/img/parked-cars.jpeg");
+    background: url("../../public/img/parked-cars.jpeg") !important;
     background-size: cover;
     color: white;
     height: 400px;
 }
 
-.card-top-body {
+.card-banner-body {
     margin-left: 80px;
 }
 
-.card-top-title {
-    width: 300px;
+.card-banner-title {
+    width: 350px;
     margin-top: 70px;
-    font-size: 48px;
 }
 
-.card-top-text {
+.card-banner-text {
     margin-top: 20px;
     margin-bottom: 30px;
 }
@@ -63,36 +73,77 @@ body {
 
 // Statistics
 
-.card-statistic-1,
-.card-statistic-2,
-.card-statistic-3 {
+.card {
     border-radius: 15px;
     border-style: none;
     background: var(--color-1);
     color: white;
 }
 
-.card-statistic-1:hover,
-.card-statistic-2:hover,
-.card-statistic-3:hover {
+.card:hover {
     background: var(--color-2);
 }
 
-.card-icon {
-    width: 100px;
-    height: 100px;
+.card-stats-icon {
+    width: 75px;
+    height: 75px;
     float: left;
     padding-right: 20px;
     margin-top: 20px;
 }
 
-.card-text-header {
+.card-stats-text-header {
     font-size: 58px;
     font-weight: bold;
 }
 
-.card-text-text {
+.card-stats-text-text {
     font-size: 14px;
 }
 
 // Statistics
+
+// Steps
+
+.card-steps-icon {
+    width: 75px;
+    height: 75px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card-steps-text-header {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.card-steps-text-text {
+    font-size: 14px;
+}
+
+// Steps
+
+// Checkboxes
+
+
+.checkboxes-text {
+    width: 500px;
+}
+
+.card-header-icon {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-right: 20px;
+}
+
+.card-header-text {
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+// Checkboxes
+
+.container-checkboxes {
+    background: url("../../public/img/parked-cars.jpeg");
+}
