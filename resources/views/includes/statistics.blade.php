@@ -6,8 +6,8 @@
                     <x-fas-car />
                 </div>
                 <div class="card-text">
-                    <div class="card-stats-text-header">50.000 +</div>
-                    <div class="card-stats-text-text">Klanten</div>
+                    <div class="card-stats-text-header">500 +</div>
+                    <div class="card-stats-text-text">Geregistreerde Kentekenplaten</div>
                 </div>
             </div>
         </div>

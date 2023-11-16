@@ -164,3 +164,39 @@ h1 {
 }
 
 // Checks
+
+// Map
+
+.container-license {
+    background: url("../../public/img/parking-full.png");
+    background-size: cover;
+}
+
+.card-license-header {
+    text-align: center;
+}
+
+.card-map-body {
+    padding: 20px;
+}
+
+.parking-lot {
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.is-occupied {
+    background-color: red;
+}
+
+.is-not-occupied {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+// Map

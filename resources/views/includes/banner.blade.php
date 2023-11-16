@@ -4,7 +4,7 @@
             <div class="card-banner-body">
                 <h1 class="card-banner-title">Gemakkelijk parkeren</h1>
                 <p class="card-banner-text">Download Park Planner. De nummer 1 parkeer app</p>
-                <a href="#" class="btn btn-primary">Download App</a>
+                <a href="/map" class="btn btn-primary">Plattegrond</a>
             </div>
         </div>
     </div>
