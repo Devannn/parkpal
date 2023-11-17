@@ -64,7 +64,7 @@
                         </div>
                         <div class="col">
                             <div class="card-body-text">
-                                <p>Navigatie naar locatie</p>
+                                <p>Tijd Besparen</p>
                             </div>
                         </div>
                     </div>

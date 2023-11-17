@@ -17,7 +17,10 @@ return new class extends Migration
             $table->id();
             $table->unsignedBigInteger('lot_id');
             $table->foreign('lot_id')->references('id')->on('lots');
-            $table->boolean('occupied')->default(false);
+            $table->bigInteger('spot_number');
+            $table->boolean('is_occupied')->default(false);
+            $table->boolean('is_electric')->default(false);
+            $table->boolean('is_disabled')->default(false);
         });
     }
 

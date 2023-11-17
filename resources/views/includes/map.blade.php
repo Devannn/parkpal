@@ -19,7 +19,7 @@
                                     @else
                                     is-not-occupied
                                     @endif"> Parkeerplaats:
-                                    {{ $spot->id }}</div>
+                                    {{ $spot->spot_number }}</div>
                             </div>
                         </div>
                     </div>

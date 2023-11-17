@@ -13,9 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('registrations', function (Blueprint $table) {
+        Schema::create('entries', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->unsignedBigInteger('license_id');
+            $table->foreign('license_id')->references('id')->on('license_plates');
+            $table->dateTime('checkin_time')->nullable();
+            $table->dateTime('park_time')->nullable();
+            $table->dateTime('checkout_time')->nullable();
         });
     }
 
@@ -26,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('registrations');
+        Schema::dropIfExists('entries');
     }
 };

@@ -13,14 +13,11 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('license_plates', function (Blueprint $table) {
+        Schema::create('settings', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('spot_id');
-            $table->foreign('spot_id')->references('id')->on('spots');
             $table->string('plate_number');
-            $table->string('type');
-            $table->string('make');
-            $table->string('model');
+            $table->boolean('is_electric')->default(false);
+            $table->boolean('is_disabled')->default(false);
         });
     }
 
@@ -31,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('license_plates');
+        Schema::dropIfExists('settings');
     }
 };

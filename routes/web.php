@@ -18,7 +18,5 @@ use App\Http\Controllers\ParkingController;
 
 Route::get('/', [HomepageController::class, 'index']);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::get('/map', [MapController::class, 'find']);
 Route::post('/find', [MapController::class, 'find']);

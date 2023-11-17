@@ -11,11 +11,10 @@
                             <div class="col-1"><button type="submit" class="btn btn-secondary"
                                     style="margin-top: 10px;">Find</button>
                             </div>
-                            <div class="col" style="padding-top:18px;height:10px;">@if($licensePlate)
-                                <p>Plate Number: {{ $licensePlate->plate_number }}, Parkeerplaats: {{
-                                    $licensePlate->spot_id }}</p>
-                                @endif
-                            </div>
+                            @if($licensePlate)
+                            <p>Plate Number: {{ $licensePlate->plate_number }}, Parkeerplaats:{{
+                                $licensePlate->spot_id }}</p>
+                            @endif
                         </div>
                     </form>
                 </div>

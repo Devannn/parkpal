@@ -6,7 +6,7 @@
                     <x-fas-car />
                 </div>
                 <div class="card-text">
-                    <div class="card-stats-text-header">500 +</div>
+                    <div class="card-stats-text-header">{{ $plates }}</div>
                     <div class="card-stats-text-text">Geregistreerde Kentekenplaten</div>
                 </div>
             </div>
@@ -16,11 +16,11 @@
         <div class="card card-stats">
             <div class="card-body">
                 <div class="card-stats-icon">
-                    <x-fas-car />
+                    <x-fas-clock />
                 </div>
                 <div class="card-text">
-                    <div class="card-stats-text-header">50.000 +</div>
-                    <div class="card-stats-text-text">Klanten</div>
+                    <div class="card-stats-text-header">550 +</div>
+                    <div class="card-stats-text-text">Bespaarde Uren</div>
                 </div>
             </div>
         </div>
@@ -29,11 +29,11 @@
         <div class="card card-stats">
             <div class="card-body">
                 <div class="card-stats-icon">
-                    <x-fas-car />
+                    <x-tni-garage />
                 </div>
                 <div class="card-text">
-                    <div class="card-stats-text-header">50.000 +</div>
-                    <div class="card-stats-text-text">Klanten</div>
+                    <div class="card-stats-text-header">{{ $lots }}</div>
+                    <div class="card-stats-text-text">Parkeergarages</div>
                 </div>
             </div>
         </div>
