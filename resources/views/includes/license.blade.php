@@ -12,7 +12,7 @@
                                     style="margin-top: 10px;">Vind</button>
                             </div>
                             @if($licensePlate)
-                            <p>Plate Number: {{ $licensePlate->plate_number }}, Parkeerplaats:{{
+                            <p>Kentekenplaat: {{ $licensePlate->plate_number }}, Parkeerplaats:{{
                                 $licensePlate->spot_id }}</p>
                             @endif
                         </div>
