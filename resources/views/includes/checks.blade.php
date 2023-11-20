@@ -64,7 +64,7 @@
                         </div>
                         <div class="col">
                             <div class="card-body-text">
-                                <p>Tijd Besparen</p>
+                                <p>Tijd besparen</p>
                             </div>
                         </div>
                     </div>
@@ -77,37 +77,10 @@
                         </div>
                         <div class="col">
                             <div class="card-body-text">
-                                <p>Navigatie naar locatie</p>
+                                <p>Vlotte doorstroming</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-1">
-                            <div class="card-body-icon">
-                                <x-fas-check-circle />
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-body-text">
-                                <p>Navigatie naar locatie</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-1">
-                            <div class="card-body-icon">
-                                <x-fas-check-circle />
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card-body-text">
-                                <p>Navigatie naar locatie</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
