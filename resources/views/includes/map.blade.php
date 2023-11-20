@@ -14,7 +14,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="parking-lot parking-lot-{{ $spot->id }} 
-                                    @if ($spot->occupied)
+                                    @if ($spot->is_occupied)
                                     is-occupied
                                     @else
                                     is-not-occupied
